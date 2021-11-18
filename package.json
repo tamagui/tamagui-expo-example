@@ -10,8 +10,8 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@radix-ui/colors": "^0.1.7",
     "@tamagui/babel-plugin": "*",
+    "@tamagui/colors": "*",
     "expo": "~43.0.2",
     "expo-status-bar": "~1.1.0",
     "react": "17.0.2",
@@ -38,6 +38,7 @@
     "tamagui-loader": "portal:/Users/n8/tamagui/packages/loader",
     "@tamagui/next-plugin": "portal:/Users/n8/tamagui/packages/next-plugin",
     "@tamagui/static": "portal:/Users/n8/tamagui/packages/static",
+    "@tamagui/colors": "portal:/Users/n8/tamagui/packages/colors",
     "tamagui": "portal:/Users/n8/tamagui/packages/tamagui",
     "@tamagui/test": "portal:/Users/n8/tamagui/packages/test"
   }

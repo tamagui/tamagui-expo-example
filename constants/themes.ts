@@ -1,4 +1,4 @@
-import * as RadixColors from '@radix-ui/colors'
+import * as Colors from '@tamagui/colors'
 
 import { tokens } from './tokens'
 
@@ -49,11 +49,11 @@ const dark = {
 }
 
 const colorThemes: Record<string, typeof light> = {}
-const colorKeys = Object.keys(RadixColors)
+const colorKeys = Object.keys(Colors)
 for (const key of colorKeys) {
   if (key.endsWith('A')) continue
   const colorName = key.replace('Dark', '')
-  const colorValues = RadixColors[key]
+  const colorValues = Colors[key]
   const isDark = key.endsWith('Dark')
   const nameKey = isDark ? key.replace('Dark', '-dark') : `${key}-light`
   // @ts-ignore
