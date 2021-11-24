@@ -10,15 +10,15 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@tamagui/babel-plugin": "*",
-    "@tamagui/colors": "*",
+    "@tamagui/babel-plugin": "^1.0.0-alpha.6",
+    "@tamagui/colors": "^1.0.0-alpha.5",
     "expo": "~43.0.2",
     "expo-status-bar": "~1.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-native": "0.64.3",
     "react-native-web": "0.17.1",
-    "tamagui": "*"
+    "tamagui": "^1.0.0-alpha.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -26,20 +26,5 @@
     "@types/react-native": "~0.64.12",
     "typescript": "~4.3.5"
   },
-  "private": true,
-  "resolutions": {
-    "@tamagui/babel-plugin": "portal:/Users/n8/tamagui/packages/babel-plugin",
-    "@tamagui/core": "portal:/Users/n8/tamagui/packages/core",
-    "@tamagui/core-node": "portal:/Users/n8/tamagui/packages/core-node",
-    "@tamagui/esdx": "portal:/Users/n8/tamagui/packages/esdx",
-    "@tamagui/fake-react-native": "portal:/Users/n8/tamagui/packages/fake-react-native",
-    "@tamagui/feather-icons": "portal:/Users/n8/tamagui/packages/feather-icons",
-    "@tamagui/helpers": "portal:/Users/n8/tamagui/packages/helpers",
-    "tamagui-loader": "portal:/Users/n8/tamagui/packages/loader",
-    "@tamagui/next-plugin": "portal:/Users/n8/tamagui/packages/next-plugin",
-    "@tamagui/static": "portal:/Users/n8/tamagui/packages/static",
-    "@tamagui/colors": "portal:/Users/n8/tamagui/packages/colors",
-    "tamagui": "portal:/Users/n8/tamagui/packages/tamagui",
-    "@tamagui/test": "portal:/Users/n8/tamagui/packages/test"
-  }
+  "private": true
 }

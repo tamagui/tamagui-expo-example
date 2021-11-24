@@ -2178,10 +2178,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tamagui/core@portal:/Users/n8/tamagui/packages/core::locator=tamagui-expo-example%40workspace%3A."
   dependencies:
-    "@tamagui/helpers": ^0.18.3
+    "@tamagui/helpers": ^1.0.0-alpha.5
+    "@tamagui/use-debounce": ^1.0.0-alpha.6
+    "@tamagui/use-force-update": ^1.0.0-alpha.5
     react: "*"
     react-dom: "*"
-    react-native-safe-area-context: ^3.3.0
   peerDependencies:
     react-native-web: "*"
   languageName: node
@@ -2198,6 +2199,22 @@ __metadata:
   resolution: "@tamagui/helpers@portal:/Users/n8/tamagui/packages/helpers::locator=tamagui-expo-example%40workspace%3A."
   peerDependencies:
     react-native: "*"
+  languageName: node
+  linkType: soft
+
+"@tamagui/use-debounce@portal:/Users/n8/tamagui/packages/use-debounce::locator=tamagui-expo-example%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@tamagui/use-debounce@portal:/Users/n8/tamagui/packages/use-debounce::locator=tamagui-expo-example%40workspace%3A."
+  peerDependencies:
+    react: "*"
+  languageName: node
+  linkType: soft
+
+"@tamagui/use-force-update@portal:/Users/n8/tamagui/packages/use-force-update::locator=tamagui-expo-example%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@tamagui/use-force-update@portal:/Users/n8/tamagui/packages/use-force-update::locator=tamagui-expo-example%40workspace%3A."
+  peerDependencies:
+    react: "*"
   languageName: node
   linkType: soft
 
@@ -6712,7 +6729,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-safe-area-context@npm:^3.3.0":
+"react-native-safe-area-context@npm:^3.3.2":
   version: 3.3.2
   resolution: "react-native-safe-area-context@npm:3.3.2"
   peerDependencies:
@@ -7675,8 +7692,8 @@ __metadata:
   resolution: "tamagui-expo-example@workspace:."
   dependencies:
     "@babel/core": ^7.12.9
-    "@tamagui/babel-plugin": "*"
-    "@tamagui/colors": "*"
+    "@tamagui/babel-plugin": ^1.0.0-alpha.6
+    "@tamagui/colors": ^1.0.0-alpha.5
     "@types/react": ~17.0.21
     "@types/react-native": ~0.64.12
     expo: ~43.0.2
@@ -7685,7 +7702,7 @@ __metadata:
     react-dom: 17.0.2
     react-native: 0.64.3
     react-native-web: 0.17.1
-    tamagui: "*"
+    tamagui: ^1.0.0-alpha.6
     typescript: ~4.3.5
   languageName: unknown
   linkType: soft
@@ -7699,14 +7716,16 @@ __metadata:
     "@react-native-aria/focus": ^0.2.5
     "@react-native-aria/overlays": ^0.3.2
     "@react-native-community/blur": ^3.6.0
-    "@tamagui/core": "*"
-    "@tamagui/fake-react-native": ^0.0.4
-    "@tamagui/helpers": ^0.18.3
+    "@tamagui/core": ^1.0.0-alpha.6
+    "@tamagui/fake-react-native": ^1.0.0-alpha.2
+    "@tamagui/helpers": ^1.0.0-alpha.5
+    "@tamagui/use-debounce": ^1.0.0-alpha.6
+    "@tamagui/use-force-update": ^1.0.0-alpha.5
     expo-linear-gradient: ^9.1.0
     normalize-css-color: "*"
     react: "*"
     react-dom: "*"
-    react-native-safe-area-context: ^3.3.0
+    react-native-safe-area-context: ^3.3.2
   peerDependencies:
     react-native-web: "*"
   languageName: node

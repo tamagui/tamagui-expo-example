@@ -2,11 +2,17 @@
   "compilerOptions": {
     "strict": true,
     "target": "esnext",
-    "lib": ["dom", "esnext"],
+    "lib": [
+      "dom",
+      "esnext"
+    ],
     "jsx": "react",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "typeRoots": ["./ts-declarations", "node_modules/@types"],
+    "typeRoots": [
+      "./ts-declarations",
+      "node_modules/@types"
+    ],
     "sourceMap": true,
     "declaration": true,
     "inlineSources": true,
@@ -16,5 +22,6 @@
     "skipLibCheck": true,
     "noImplicitThis": true,
     "noImplicitReturns": true
-  }
+  },
+  "extends": "expo/tsconfig.base"
 }
