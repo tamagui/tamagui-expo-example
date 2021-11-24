@@ -1,3 +1,4 @@
+// debug
 import { StatusBar } from 'expo-status-bar'
 import React from 'react'
 import { Button, Paragraph, Theme, YStack } from 'tamagui'
@@ -21,8 +22,8 @@ const TestComponent = () => {
   return (
     <YStack bc="$bg" spacing ai="center">
       <YStack width={100} height={100} backgroundColor="red" />
-      {/* <Paragraph size="$6">Hello</Paragraph> */}
-      {/* <Button>Hello</Button> */}
+      <Paragraph $sm={{ color: 'green' }} size="$6">Hello</Paragraph>
+      <Button>Hello</Button>
     </YStack>
   )
 }
