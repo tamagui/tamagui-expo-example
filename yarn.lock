@@ -2162,32 +2162,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/babel-plugin@npm:^1.0.0-alpha.7":
-  version: 1.0.0-alpha.7
-  resolution: "@tamagui/babel-plugin@npm:1.0.0-alpha.7"
-  checksum: 87ef19c44fc4b3f61c917a016335c81f5afe1446446e32fe20ac554205a4c8499c1d6f392a9c431e834c251137a644313e4aecdcaa7722c048e8b598e4050ca6
+"@tamagui/babel-plugin@npm:^1.0.0-alpha.8":
+  version: 1.0.0-alpha.8
+  resolution: "@tamagui/babel-plugin@npm:1.0.0-alpha.8"
+  checksum: 1d013f6e0539c1318fbef053c28a712c815e9c9d26d627879952e2165d28afa4fcb16aeef45cf4f048b89a52a4080514f8372c77477cfff580a0afe1d43e059e
   languageName: node
   linkType: hard
 
-"@tamagui/colors@npm:^1.0.0-alpha.5":
-  version: 1.0.0-alpha.5
-  resolution: "@tamagui/colors@npm:1.0.0-alpha.5"
-  checksum: 4ff315455faea93dab1aadbe67fddf715798682178bc51e6d88761f2884b9268671bf006abb85a7c15d0665f8314e25929f6a77be5a66b93f45d650b333e9960
+"@tamagui/colors@npm:^1.0.0-alpha.8":
+  version: 1.0.0-alpha.8
+  resolution: "@tamagui/colors@npm:1.0.0-alpha.8"
+  checksum: 3dcbbd6e16557862778c9d05b0d3049e2bdc0fd3ce5acb22667e3a55ad02a99b15a1e962eb42d3d221ee57114af21cd772711fe5a66971aeed3a08fb6960e1a7
   languageName: node
   linkType: hard
 
-"@tamagui/core@npm:^1.0.0-alpha.7":
-  version: 1.0.0-alpha.7
-  resolution: "@tamagui/core@npm:1.0.0-alpha.7"
+"@tamagui/core@npm:^1.0.0-alpha.8":
+  version: 1.0.0-alpha.8
+  resolution: "@tamagui/core@npm:1.0.0-alpha.8"
   dependencies:
-    "@tamagui/helpers": ^1.0.0-alpha.5
-    "@tamagui/use-debounce": ^1.0.0-alpha.6
-    "@tamagui/use-force-update": ^1.0.0-alpha.5
+    "@tamagui/helpers": ^1.0.0-alpha.8
+    "@tamagui/use-debounce": ^1.0.0-alpha.8
+    "@tamagui/use-force-update": ^1.0.0-alpha.8
     react: "*"
     react-dom: "*"
   peerDependencies:
     react-native-web: "*"
-  checksum: 4fcf02e15341ad9b789cdd207c8b3894495b79bc1c37e7429f2cafa368894964c8ccec7d8b7a7d36ae1ba123f4c08263834611624fb7c42cf5596ba96354128f
+  checksum: 5ebe46a232c921e5c27f7752046aaea010fa92d5b4486a1831fe50dc6ac23944454e4d13b2474b32be515e9704c7f004b86273de3bdc99f35f94002bfaa0f165
   languageName: node
   linkType: hard
 
@@ -2198,30 +2198,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/helpers@npm:^1.0.0-alpha.5":
-  version: 1.0.0-alpha.5
-  resolution: "@tamagui/helpers@npm:1.0.0-alpha.5"
+"@tamagui/helpers@npm:^1.0.0-alpha.8":
+  version: 1.0.0-alpha.8
+  resolution: "@tamagui/helpers@npm:1.0.0-alpha.8"
   peerDependencies:
     react-native: "*"
-  checksum: 426f8e92fd90283f9c88564a48bdd479474556b525cf7b383f1cc4b31fb23d2532212368735e57c6db81024059d6c2e486f54b6d816675d82e1476f7075d7e6e
+  checksum: 63e2d3e986740a68e754d88fe52f9619eb825057dfa22f9a42908207a364a472d8c74cfb69732dfee0d62c885856910965ef764b3544d89ac1e93966cb21e8c0
   languageName: node
   linkType: hard
 
-"@tamagui/use-debounce@npm:^1.0.0-alpha.6":
-  version: 1.0.0-alpha.6
-  resolution: "@tamagui/use-debounce@npm:1.0.0-alpha.6"
+"@tamagui/use-debounce@npm:^1.0.0-alpha.8":
+  version: 1.0.0-alpha.8
+  resolution: "@tamagui/use-debounce@npm:1.0.0-alpha.8"
   peerDependencies:
     react: "*"
-  checksum: e347b7a9c6bee2545057335d2f5a769d83d56715e18eacd2a00a04c473a5e27937d3144f2de69152904870957907ab8f582d5c6d0c9a2536556bddf3a2543aef
+  checksum: 88955c814aee82866dec923db32a7600424ea3267eacae4026e2165229664bfb6726ff412287b8d484b0b46604f05f8c7c4ac54d70d7f8921df002d436256ba9
   languageName: node
   linkType: hard
 
-"@tamagui/use-force-update@npm:^1.0.0-alpha.5":
-  version: 1.0.0-alpha.5
-  resolution: "@tamagui/use-force-update@npm:1.0.0-alpha.5"
+"@tamagui/use-force-update@npm:^1.0.0-alpha.8":
+  version: 1.0.0-alpha.8
+  resolution: "@tamagui/use-force-update@npm:1.0.0-alpha.8"
   peerDependencies:
     react: "*"
-  checksum: 82071e9b02e184dec945ff5af1815821d23a09b35e5d82c45901781bf0780f1cc38f04482200a1615a883fd9cb84efb8058f102375659f5c86591dc1e420ec5b
+  checksum: 5ec4505768dc7f167b4f48581143e4c9bf1e9f919d625b4cdfbb2a76ebf9cfd83fe7a22a73a0fdee0d3c3c4c2459dbf6910fdce4770d9d058ea774b6e3f53ace
   languageName: node
   linkType: hard
 
@@ -2323,7 +2323,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unimodules/core@npm:^7.1.2":
+"@unimodules/core@npm:^7.2.0":
   version: 7.2.0
   resolution: "@unimodules/core@npm:7.2.0"
   dependencies:
@@ -3863,7 +3863,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo@npm:~43.0.2":
+"expo@npm:~43.0.3":
   version: 43.0.3
   resolution: "expo@npm:43.0.3"
   dependencies:
@@ -6755,9 +6755,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-web@npm:0.17.1":
-  version: 0.17.1
-  resolution: "react-native-web@npm:0.17.1"
+"react-native-web@npm:0.17.5":
+  version: 0.17.5
+  resolution: "react-native-web@npm:0.17.5"
   dependencies:
     array-find-index: ^1.0.2
     create-react-class: ^15.7.0
@@ -6769,7 +6769,7 @@ __metadata:
   peerDependencies:
     react: ">=17.0.1"
     react-dom: ">=17.0.1"
-  checksum: a06ec047082bb4edf49323a5a88b576ba93ddc965e4dd00c4c0b1f423a4175a430d9c2619f32d184f719181c4d3f08ffa8fa4f3b8c951f6a95176d3735e4bf7d
+  checksum: 548cbba9f8fd081a08d0d882f7db9f5cd38e9706f2261c3f296a8406b2455beba0e80b294b5d052a927b0b2dcfbd5af59a3441ae78a7d407feee59e2f9487232
   languageName: node
   linkType: hard
 
@@ -7708,36 +7708,36 @@ __metadata:
   resolution: "tamagui-expo-example@workspace:."
   dependencies:
     "@babel/core": ^7.12.9
-    "@tamagui/babel-plugin": ^1.0.0-alpha.7
-    "@tamagui/colors": ^1.0.0-alpha.5
+    "@tamagui/babel-plugin": ^1.0.0-alpha.8
+    "@tamagui/colors": ^1.0.0-alpha.8
     "@types/react": ~17.0.21
     "@types/react-native": ~0.64.12
-    "@unimodules/core": ^7.1.2
-    expo: ~43.0.2
+    "@unimodules/core": ^7.2.0
+    expo: ~43.0.3
     expo-status-bar: ~1.1.0
     react: 17.0.2
     react-dom: 17.0.2
     react-native: 0.64.3
-    react-native-web: 0.17.1
-    tamagui: ^1.0.0-alpha.7
-    typescript: ~4.3.5
+    react-native-web: 0.17.5
+    tamagui: ^1.0.0-alpha.8
+    typescript: ~4.5.2
   languageName: unknown
   linkType: soft
 
-"tamagui@npm:^1.0.0-alpha.7":
-  version: 1.0.0-alpha.7
-  resolution: "tamagui@npm:1.0.0-alpha.7"
+"tamagui@npm:^1.0.0-alpha.8":
+  version: 1.0.0-alpha.8
+  resolution: "tamagui@npm:1.0.0-alpha.8"
   dependencies:
     "@react-aria/ssr": ^3.1.0
     "@react-aria/utils": ^3.9.0
     "@react-native-aria/focus": ^0.2.5
     "@react-native-aria/overlays": ^0.3.2
     "@react-native-community/blur": ^3.6.0
-    "@tamagui/core": ^1.0.0-alpha.7
+    "@tamagui/core": ^1.0.0-alpha.8
     "@tamagui/fake-react-native": ^1.0.0-alpha.2
-    "@tamagui/helpers": ^1.0.0-alpha.5
-    "@tamagui/use-debounce": ^1.0.0-alpha.6
-    "@tamagui/use-force-update": ^1.0.0-alpha.5
+    "@tamagui/helpers": ^1.0.0-alpha.8
+    "@tamagui/use-debounce": ^1.0.0-alpha.8
+    "@tamagui/use-force-update": ^1.0.0-alpha.8
     expo-linear-gradient: ^9.1.0
     normalize-css-color: "*"
     react: "*"
@@ -7745,7 +7745,7 @@ __metadata:
     react-native-safe-area-context: ^3.3.2
   peerDependencies:
     react-native-web: "*"
-  checksum: 450ebb9b86e9fe6e0168d4639b850a4153d051a35ee20ace983c7b36e64c87e9bcce7d29eae2bef7ac6bc6a521599cb73adf014208d1a4db271793d6ecccf257
+  checksum: 36c203107b9451513007464876abe3205b9f3aefb8c7732918681242d7dd9bf653dcaaf264e52c588e304fa3c63d3305ec7897c37b57a614c31155fa04b2c56a
   languageName: node
   linkType: hard
 
@@ -7906,23 +7906,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~4.3.5":
-  version: 4.3.5
-  resolution: "typescript@npm:4.3.5"
+"typescript@npm:~4.5.2":
+  version: 4.5.2
+  resolution: "typescript@npm:4.5.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: bab033b5e2b0790dd35b77fd005df976ef80b8d84fd2c6e63cc31808151875beae9216e5a315fe7068e8499905c3c354248fe83272cdfc13b7705635f0c66c97
+  checksum: 74f9ce65d532bdf5d0214b3f60cf37992180023388c87a11ee6f838a803067ef0b63c600fa501b0deb07f989257dce1e244c9635ed79feca40bbccf6e0aa1ebc
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@~4.3.5#~builtin<compat/typescript>":
-  version: 4.3.5
-  resolution: "typescript@patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=ddd1e8"
+"typescript@patch:typescript@~4.5.2#~builtin<compat/typescript>":
+  version: 4.5.2
+  resolution: "typescript@patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=ddd1e8"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 61fc1a2ca5037420de5bbe17c6ddc4cbcc0d52301ed94f0a7b5821c55ff9eb96307f0816f745ca8f0fc87ed92f3951cde6d97cd6fd6bc6920c02ea63b5b26259
+  checksum: 24a439e062a05e3285a4f0e8a40644116ecdca89f3e908bed01e5a01b9aee747e3bcf0e85fe9e017e5ebf0c0863437c39479f2616f55a244c2d82d37022cdc4f
   languageName: node
   linkType: hard
 
