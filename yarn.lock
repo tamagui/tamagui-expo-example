@@ -2323,6 +2323,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@unimodules/core@npm:^7.1.2":
+  version: 7.2.0
+  resolution: "@unimodules/core@npm:7.2.0"
+  dependencies:
+    expo-modules-core: ~0.4.0
+  checksum: 789b30c8bdab258fbac8cae36b91c8c6d7a10379681499858eee41db9444c405ef0512dbe7674c8ba082e87e455438af3cf4c4ee48b7cd2b10cd1b0696a10b99
+  languageName: node
+  linkType: hard
+
 "@xmldom/xmldom@npm:~0.7.0":
   version: 0.7.5
   resolution: "@xmldom/xmldom@npm:0.7.5"
@@ -3837,7 +3846,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-modules-core@npm:~0.4.4, expo-modules-core@npm:~0.4.8":
+"expo-modules-core@npm:~0.4.0, expo-modules-core@npm:~0.4.4, expo-modules-core@npm:~0.4.8":
   version: 0.4.8
   resolution: "expo-modules-core@npm:0.4.8"
   dependencies:
@@ -7703,6 +7712,7 @@ __metadata:
     "@tamagui/colors": ^1.0.0-alpha.5
     "@types/react": ~17.0.21
     "@types/react-native": ~0.64.12
+    "@unimodules/core": ^7.1.2
     expo: ~43.0.2
     expo-status-bar: ~1.1.0
     react: 17.0.2

@@ -7,9 +7,17 @@ export default function App() {
   return (
     <Tamagui.Provider defaultTheme='light'>
       <YStack flex={1} bc="$bg" ai="center" jc="center" space="$7">
-        <TestComponent />
+        <Theme name="light">
+          <TestComponent />
+        </Theme>
+        <Theme name="pink">
+          <TestComponent />
+        </Theme>
         <Theme name="dark">
           <TestComponent />
+          <Theme name="pink">
+            <TestComponent />
+          </Theme>
         </Theme>
       </YStack>
       <StatusBar style="auto" />
@@ -19,9 +27,9 @@ export default function App() {
 
 const TestComponent = () => {
   return (
-    <YStack bc="$bg" spacing ai="center">
+    <YStack bc="$bg2" space ai="center" jc="center">
       <YStack width={100} height={100} backgroundColor="red" />
-      <Paragraph $sm={{ color: 'green' }} size="$6">Hello</Paragraph>
+      <Paragraph $sm={{ color: 'red' }} size="$6">Hello</Paragraph>
       <Button>Hello</Button>
     </YStack>
   )

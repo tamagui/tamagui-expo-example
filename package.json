@@ -12,6 +12,7 @@
   "dependencies": {
     "@tamagui/babel-plugin": "^1.0.0-alpha.7",
     "@tamagui/colors": "^1.0.0-alpha.5",
+    "@unimodules/core": "^7.1.2",
     "expo": "~43.0.2",
     "expo-status-bar": "~1.1.0",
     "react": "17.0.2",
