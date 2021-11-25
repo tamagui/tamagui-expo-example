@@ -1,4 +1,4 @@
-.yarn
+.yarn/cache
 node_modules/
 .expo/
 dist/
