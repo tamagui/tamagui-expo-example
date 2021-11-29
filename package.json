@@ -10,7 +10,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@tamagui/babel-plugin": "^1.0.0-alpha.20",
+    "@tamagui/babel-plugin": "^1.0.0-alpha.21",
     "@tamagui/colors": "^1.0.0-alpha.17",
     "@unimodules/core": "^7.2.0",
     "expo": "~43.0.3",
@@ -19,7 +19,7 @@
     "react-dom": "17.0.2",
     "react-native": "0.64.3",
     "react-native-web": "0.17.5",
-    "tamagui": "^1.0.0-alpha.20"
+    "tamagui": "^1.0.0-alpha.21"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
