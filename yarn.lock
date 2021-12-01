@@ -2392,16 +2392,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/babel-plugin@npm:^1.0.0-alpha.27":
-  version: 1.0.0-alpha.27
-  resolution: "@tamagui/babel-plugin@npm:1.0.0-alpha.27"
+"@tamagui/babel-plugin@npm:^1.0.0-alpha.30":
+  version: 1.0.0-alpha.30
+  resolution: "@tamagui/babel-plugin@npm:1.0.0-alpha.30"
   dependencies:
     "@babel/generator": ^7.15.4
     "@babel/helper-plugin-utils": ^7.14.5
     "@babel/template": "*"
     "@babel/traverse": ^7.15.4
-    "@tamagui/static": ^1.0.0-alpha.27
-  checksum: b2df14b834d00af69a3615f64da88572e10d2ace3fd20bf25d52152110d8b4cfa5ccb31b54f4c78025d4f39f1eb229650df7247e609144fc40b864994088c000
+    "@tamagui/static": ^1.0.0-alpha.30
+  checksum: 56bcd29f8ff7489b88ec6b49b6c1bd780293701226b99c79b362d99a2ba4a9896e72db2d102303e7c898e9dd05eb0537688dc48d7aa004f50a46136896ea20bf
   languageName: node
   linkType: hard
 
@@ -2429,20 +2429,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/core-node@npm:^1.0.0-alpha.26":
-  version: 1.0.0-alpha.26
-  resolution: "@tamagui/core-node@npm:1.0.0-alpha.26"
+"@tamagui/core-node@npm:^1.0.0-alpha.30":
+  version: 1.0.0-alpha.30
+  resolution: "@tamagui/core-node@npm:1.0.0-alpha.30"
   dependencies:
-    "@tamagui/helpers": ^1.0.0-alpha.26
-  checksum: 497cdbec6fa2cf6cfeab66178bb63c842ad25e489f20d4786e127c4cbe536526923072b45e42121f0f62fb37e3389c41949764e7fd7275befc9f0ab8cc5cbdd1
+    "@tamagui/helpers": ^1.0.0-alpha.30
+  checksum: 58e8fbd43a0f9e24715cc572bbec0f4ec7bb346104c7de9d087577dae4a9cb9416d6a074d90655065b86f69eae6a042311ff6b097c5e6285bf234d8cdf2b30fa
   languageName: node
   linkType: hard
 
-"@tamagui/core@npm:^1.0.0-alpha.27":
-  version: 1.0.0-alpha.27
-  resolution: "@tamagui/core@npm:1.0.0-alpha.27"
+"@tamagui/core@npm:^1.0.0-alpha.30":
+  version: 1.0.0-alpha.30
+  resolution: "@tamagui/core@npm:1.0.0-alpha.30"
   dependencies:
-    "@tamagui/helpers": ^1.0.0-alpha.26
+    "@tamagui/helpers": ^1.0.0-alpha.30
     "@tamagui/ow": ^0.28.1
     "@tamagui/use-debounce": ^1.0.0-alpha.26
     "@tamagui/use-force-update": ^1.0.0-alpha.26
@@ -2450,7 +2450,7 @@ __metadata:
     react-dom: "*"
   peerDependencies:
     react-native-web: "*"
-  checksum: e2783ca0787d13082a3925fedae626d521a1fe56143746c162164b651fd72aaf1563bd0d2eb4ae01ac39e4d8b38a39b8e833acc6cba614cd239c1bc20b5f03af
+  checksum: c5d7dc17e755c2e885433c4b62e03c48f600e178c798dede567b4e762ead9106eb2293797c83849383542aff449290530d6fc0d7ccde2587e080384c644446e5
   languageName: node
   linkType: hard
 
@@ -2461,12 +2461,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/helpers@npm:^1.0.0-alpha.26":
-  version: 1.0.0-alpha.26
-  resolution: "@tamagui/helpers@npm:1.0.0-alpha.26"
+"@tamagui/helpers@npm:^1.0.0-alpha.30":
+  version: 1.0.0-alpha.30
+  resolution: "@tamagui/helpers@npm:1.0.0-alpha.30"
   peerDependencies:
     react-native: "*"
-  checksum: 6980c9703a1289c3d4fea12ccbdcc05120ad62e5c69f98badb51b07f8b4b770c6d346d35fcf89f5f5419cccd45883688e23e5f65fd8d1c0d475511b02a451947
+  checksum: d66f6222bba4051d6c0172dfce06abb5bab154c571d318be82b913b7b01abd7527036e1c850ffb6d7bf9799789948ecdf98b214854f449751e60d33d1f0cfef0
   languageName: node
   linkType: hard
 
@@ -2484,9 +2484,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/static@npm:^1.0.0-alpha.27":
-  version: 1.0.0-alpha.27
-  resolution: "@tamagui/static@npm:1.0.0-alpha.27"
+"@tamagui/static@npm:^1.0.0-alpha.30":
+  version: 1.0.0-alpha.30
+  resolution: "@tamagui/static@npm:1.0.0-alpha.30"
   dependencies:
     "@babel/core": ^7.15.5
     "@babel/generator": ^7.15.4
@@ -2496,10 +2496,10 @@ __metadata:
     "@dish/babel-preset": ^0.0.6
     "@expo/match-media": ^0.1.0
     "@tamagui/build": ^1.0.0-alpha.22
-    "@tamagui/core": ^1.0.0-alpha.27
-    "@tamagui/core-node": ^1.0.0-alpha.26
+    "@tamagui/core": ^1.0.0-alpha.30
+    "@tamagui/core-node": ^1.0.0-alpha.30
     "@tamagui/fake-react-native": ^1.0.0-alpha.17
-    "@tamagui/helpers": ^1.0.0-alpha.26
+    "@tamagui/helpers": ^1.0.0-alpha.30
     babel-literal-to-ast: ^2.1.0
     esbuild: ^0.13.12
     esbuild-register: ^3.1.2
@@ -2507,10 +2507,10 @@ __metadata:
     fs-extra: ^9.1.0
     invariant: ^2.2.4
     lodash: ^4.17.21
-    tamagui: ^1.0.0-alpha.27
+    tamagui: ^1.0.0-alpha.30
   peerDependencies:
     react-native-web: "*"
-  checksum: c2a945be879abd77884053e259352d494d6e8ad1b8ab89e6d6d7656fca02d9117492600b2888a126379330cb4aa200b1ef53f412d3628889148aa84450d091c4
+  checksum: 87b954ea6fb35c0c8a5b31d19435d3dcaed8626501c168c7e161b360ef409cb56bf18158f644ff8103bc059bd3b964167f029bc2f38c9406d9ad8fcba3410c78
   languageName: node
   linkType: hard
 
@@ -9131,7 +9131,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.16.0
     "@manypkg/cli": ^0.19.1
-    "@tamagui/babel-plugin": ^1.0.0-alpha.27
+    "@tamagui/babel-plugin": ^1.0.0-alpha.30
     "@tamagui/colors": ^1.0.0-alpha.26
     "@types/react": ~17.0.37
     "@types/react-native": ~0.66.6
@@ -9142,23 +9142,23 @@ __metadata:
     react-dom: 17.0.2
     react-native: 0.64.3
     react-native-web: 0.17.5
-    tamagui: ^1.0.0-alpha.27
+    tamagui: ^1.0.0-alpha.30
     typescript: ~4.5.2
   languageName: unknown
   linkType: soft
 
-"tamagui@npm:^1.0.0-alpha.27":
-  version: 1.0.0-alpha.27
-  resolution: "tamagui@npm:1.0.0-alpha.27"
+"tamagui@npm:^1.0.0-alpha.30":
+  version: 1.0.0-alpha.30
+  resolution: "tamagui@npm:1.0.0-alpha.30"
   dependencies:
     "@react-aria/ssr": ^3.1.0
     "@react-aria/utils": ^3.9.0
     "@react-native-aria/focus": ^0.2.5
     "@react-native-aria/overlays": ^0.3.2
     "@react-native-community/blur": ^3.6.0
-    "@tamagui/core": ^1.0.0-alpha.27
+    "@tamagui/core": ^1.0.0-alpha.30
     "@tamagui/fake-react-native": ^1.0.0-alpha.17
-    "@tamagui/helpers": ^1.0.0-alpha.26
+    "@tamagui/helpers": ^1.0.0-alpha.30
     "@tamagui/use-debounce": ^1.0.0-alpha.26
     "@tamagui/use-force-update": ^1.0.0-alpha.26
     expo-linear-gradient: ^10.0.3
@@ -9168,7 +9168,7 @@ __metadata:
     react-native-safe-area-context: ^3.3.2
   peerDependencies:
     react-native-web: "*"
-  checksum: 8bd1512d26ebf098c47880902238cb123d2f46d0b39f4201022690b3fa64d88ce93e1c845ada974160386e92060e4504624317d3ff4eec8f9561c6bb7e430377
+  checksum: 30cdb0fb8eba98ea53b3b849fb0a1f63270a0196073e7cd61148d061f68fba2e38e500e5e00ae22842eb9cea51cb7b659857f6db11625abdce859df7ed14dfbc
   languageName: node
   linkType: hard
 
