@@ -2038,6 +2038,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-aria/utils@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@react-aria/utils@npm:3.10.0"
+  dependencies:
+    "@babel/runtime": ^7.6.2
+    "@react-aria/ssr": ^3.1.0
+    "@react-stately/utils": ^3.3.0
+    "@react-types/shared": ^3.10.0
+    clsx: ^1.1.1
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1
+  checksum: 27d16fc02ad822a93242bc7985c9ab0e8f0c20390b377aa73416d358882c4abc3690c95b31329946b42cfb5f18d4484a5c2c483391057fe21fc28acf737d3519
+  languageName: node
+  linkType: hard
+
 "@react-aria/utils@npm:^3.3.0, @react-aria/utils@npm:^3.8.2, @react-aria/utils@npm:^3.9.0":
   version: 3.9.0
   resolution: "@react-aria/utils@npm:3.9.0"
@@ -2315,6 +2330,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-stately/utils@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@react-stately/utils@npm:3.3.0"
+  dependencies:
+    "@babel/runtime": ^7.6.2
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1
+  checksum: d09b1160376a32cb53d4b925470a6549619a24b10d042b7135306a46ed6ae8f6bafd1f6c472319800cdbfa606aa45f997ceafc6888deef366744132a9cb782a0
+  languageName: node
+  linkType: hard
+
 "@react-types/button@npm:^3.4.1":
   version: 3.4.1
   resolution: "@react-types/button@npm:3.4.1"
@@ -2334,6 +2360,15 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0-rc.1
   checksum: a068dce4cf1f066c5015a2ef1e345815163f8cee005854d0cc1c6fd548447f1ed1afdee5b3b5407bf8f64101f4ce9dd87b65dee4546035a88ed48a7ae693db83
+  languageName: node
+  linkType: hard
+
+"@react-types/shared@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@react-types/shared@npm:3.10.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1
+  checksum: f3a5648cc4514915571eb648ecba383dc30d0d3c95d2991193dc4a57730c826dcc3effd4c48c21704adc31756d3d6d75dfe1f4e20c40df29a5e99079876e4a7f
   languageName: node
   linkType: hard
 
@@ -2392,22 +2427,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/babel-plugin@npm:^1.0.0-alpha.30":
-  version: 1.0.0-alpha.30
-  resolution: "@tamagui/babel-plugin@npm:1.0.0-alpha.30"
+"@tamagui/babel-plugin@npm:^1.0.0-alpha.32":
+  version: 1.0.0-alpha.32
+  resolution: "@tamagui/babel-plugin@npm:1.0.0-alpha.32"
   dependencies:
     "@babel/generator": ^7.15.4
     "@babel/helper-plugin-utils": ^7.14.5
     "@babel/template": "*"
     "@babel/traverse": ^7.15.4
-    "@tamagui/static": ^1.0.0-alpha.30
-  checksum: 56bcd29f8ff7489b88ec6b49b6c1bd780293701226b99c79b362d99a2ba4a9896e72db2d102303e7c898e9dd05eb0537688dc48d7aa004f50a46136896ea20bf
+    "@tamagui/static": ^1.0.0-alpha.32
+  checksum: 8af500d12b9b5ca5c8dc99ae3fde322be4ac0703e826febe170b8a882ca66dfaa2afce4861425bdedc8c061fec95dba562ef0d0d89e9888e5e3e28bd85bfe426
   languageName: node
   linkType: hard
 
-"@tamagui/build@npm:^1.0.0-alpha.22":
-  version: 1.0.0-alpha.22
-  resolution: "@tamagui/build@npm:1.0.0-alpha.22"
+"@tamagui/build@npm:^1.0.0-alpha.32":
+  version: 1.0.0-alpha.32
+  resolution: "@tamagui/build@npm:1.0.0-alpha.32"
   dependencies:
     chokidar: ^3.5.2
     esbuild: ^0.13.12
@@ -2418,39 +2453,39 @@ __metadata:
     typescript: ^4.5.2
   bin:
     tamagui-build: tamagui-build.js
-  checksum: 1d7a1795a12cb1383674890aca93aecfaefdefe74b1401b9b4281179d0cb81438d4fb9ebf9217fcce914c95b18b5d72583a3f9ea289b186167079075fdb8f278
+  checksum: 003bac9bbd122f18ec07e116a472a298764bd408bab760cc09c8633fbc2a642aa9609f80dab6acfa37cdde8be814a3f0c78b427192d7f5efaea35a96f3e00b40
   languageName: node
   linkType: hard
 
-"@tamagui/colors@npm:^1.0.0-alpha.26":
-  version: 1.0.0-alpha.26
-  resolution: "@tamagui/colors@npm:1.0.0-alpha.26"
-  checksum: 7e5aa8bac72aaef486aae22d242267605e0f2609d4d20d5f8a40bdbf3557190443e2ca8aaf1450e6e90446e419569091fa5734d60ee6a48373723ead34df1421
+"@tamagui/colors@npm:^1.0.0-alpha.32":
+  version: 1.0.0-alpha.32
+  resolution: "@tamagui/colors@npm:1.0.0-alpha.32"
+  checksum: feab258113b386eb3edbaf4a8724c20b4441112758df84da64f9268aa9a07114ff446483fc2301836911d53a55dc5eee318c184689eb0cd400ae49818d04def3
   languageName: node
   linkType: hard
 
-"@tamagui/core-node@npm:^1.0.0-alpha.30":
-  version: 1.0.0-alpha.30
-  resolution: "@tamagui/core-node@npm:1.0.0-alpha.30"
+"@tamagui/core-node@npm:^1.0.0-alpha.32":
+  version: 1.0.0-alpha.32
+  resolution: "@tamagui/core-node@npm:1.0.0-alpha.32"
   dependencies:
-    "@tamagui/helpers": ^1.0.0-alpha.30
-  checksum: 58e8fbd43a0f9e24715cc572bbec0f4ec7bb346104c7de9d087577dae4a9cb9416d6a074d90655065b86f69eae6a042311ff6b097c5e6285bf234d8cdf2b30fa
+    "@tamagui/helpers": ^1.0.0-alpha.32
+  checksum: b02399058ced79ff848377355480f221e2a5d0926ec3e3877b5745e907b323e9f176cbbf7906b0e04969cba5d41de8e8facd842a76ad0db599e2dbe804ea8900
   languageName: node
   linkType: hard
 
-"@tamagui/core@npm:^1.0.0-alpha.30":
-  version: 1.0.0-alpha.30
-  resolution: "@tamagui/core@npm:1.0.0-alpha.30"
+"@tamagui/core@npm:^1.0.0-alpha.32":
+  version: 1.0.0-alpha.32
+  resolution: "@tamagui/core@npm:1.0.0-alpha.32"
   dependencies:
-    "@tamagui/helpers": ^1.0.0-alpha.30
+    "@tamagui/helpers": ^1.0.0-alpha.32
     "@tamagui/ow": ^0.28.1
-    "@tamagui/use-debounce": ^1.0.0-alpha.26
-    "@tamagui/use-force-update": ^1.0.0-alpha.26
+    "@tamagui/use-debounce": ^1.0.0-alpha.32
+    "@tamagui/use-force-update": ^1.0.0-alpha.32
     react: "*"
     react-dom: "*"
   peerDependencies:
     react-native-web: "*"
-  checksum: c5d7dc17e755c2e885433c4b62e03c48f600e178c798dede567b4e762ead9106eb2293797c83849383542aff449290530d6fc0d7ccde2587e080384c644446e5
+  checksum: 3ce10fb077761245e491bbcc5e421cd0ac4c86d9d259b577b1d3d5a419cd39e791103afea90e2c924c8284af1bdc4aae5807733903f43144eda1d1494431d071
   languageName: node
   linkType: hard
 
@@ -2461,12 +2496,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/helpers@npm:^1.0.0-alpha.30":
-  version: 1.0.0-alpha.30
-  resolution: "@tamagui/helpers@npm:1.0.0-alpha.30"
+"@tamagui/helpers@npm:^1.0.0-alpha.32":
+  version: 1.0.0-alpha.32
+  resolution: "@tamagui/helpers@npm:1.0.0-alpha.32"
   peerDependencies:
     react-native: "*"
-  checksum: d66f6222bba4051d6c0172dfce06abb5bab154c571d318be82b913b7b01abd7527036e1c850ffb6d7bf9799789948ecdf98b214854f449751e60d33d1f0cfef0
+  checksum: 06bfe89d3dfb063f238c6bb1cfc822c905534b22e2d69cabbcf1c47d0594a92de32a7b6960c2c1464a8051d1b8c367d400f01bed55726ec3d6896478cc9ab78d
   languageName: node
   linkType: hard
 
@@ -2484,9 +2519,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/static@npm:^1.0.0-alpha.30":
-  version: 1.0.0-alpha.30
-  resolution: "@tamagui/static@npm:1.0.0-alpha.30"
+"@tamagui/static@npm:^1.0.0-alpha.32":
+  version: 1.0.0-alpha.32
+  resolution: "@tamagui/static@npm:1.0.0-alpha.32"
   dependencies:
     "@babel/core": ^7.15.5
     "@babel/generator": ^7.15.4
@@ -2495,11 +2530,11 @@ __metadata:
     "@babel/traverse": ^7.15.4
     "@dish/babel-preset": ^0.0.6
     "@expo/match-media": ^0.1.0
-    "@tamagui/build": ^1.0.0-alpha.22
-    "@tamagui/core": ^1.0.0-alpha.30
-    "@tamagui/core-node": ^1.0.0-alpha.30
+    "@tamagui/build": ^1.0.0-alpha.32
+    "@tamagui/core": ^1.0.0-alpha.32
+    "@tamagui/core-node": ^1.0.0-alpha.32
     "@tamagui/fake-react-native": ^1.0.0-alpha.17
-    "@tamagui/helpers": ^1.0.0-alpha.30
+    "@tamagui/helpers": ^1.0.0-alpha.32
     babel-literal-to-ast: ^2.1.0
     esbuild: ^0.13.12
     esbuild-register: ^3.1.2
@@ -2507,28 +2542,28 @@ __metadata:
     fs-extra: ^9.1.0
     invariant: ^2.2.4
     lodash: ^4.17.21
-    tamagui: ^1.0.0-alpha.30
+    tamagui: ^1.0.0-alpha.32
   peerDependencies:
     react-native-web: "*"
-  checksum: 87b954ea6fb35c0c8a5b31d19435d3dcaed8626501c168c7e161b360ef409cb56bf18158f644ff8103bc059bd3b964167f029bc2f38c9406d9ad8fcba3410c78
+  checksum: 8835b29ae2e0f602eea5a3a9ba119770e8de928c13f2a949d8aa1e94bdb4416a066bbb7bcce3858487f8289f23b19a12fa19de76b15d200d26c921d0b9b39b92
   languageName: node
   linkType: hard
 
-"@tamagui/use-debounce@npm:^1.0.0-alpha.26":
-  version: 1.0.0-alpha.26
-  resolution: "@tamagui/use-debounce@npm:1.0.0-alpha.26"
+"@tamagui/use-debounce@npm:^1.0.0-alpha.32":
+  version: 1.0.0-alpha.32
+  resolution: "@tamagui/use-debounce@npm:1.0.0-alpha.32"
   dependencies:
     react: "*"
-  checksum: f1af6dd9f2d9db8f93d5dc824bf48e1130ebce9aa7ddc0aac6ab6190db9259bb0dc12d8784b5f0193cfd2a714336f91b24cfa9c95df9e631d51985568e03c389
+  checksum: 032eb4f707098648ca21b6430bce481f3e189d666010012d2968c34d73282011bc013b0a5ec6030c5864f6a6836ad7b7355dd1dee70e597b80a763d0a87b599a
   languageName: node
   linkType: hard
 
-"@tamagui/use-force-update@npm:^1.0.0-alpha.26":
-  version: 1.0.0-alpha.26
-  resolution: "@tamagui/use-force-update@npm:1.0.0-alpha.26"
+"@tamagui/use-force-update@npm:^1.0.0-alpha.32":
+  version: 1.0.0-alpha.32
+  resolution: "@tamagui/use-force-update@npm:1.0.0-alpha.32"
   dependencies:
     react: "*"
-  checksum: 16912d01e7ea3b6068d5701290373fce3b87d8be837938ba99868015e31de2573cd1cbd54bc6a19c4aff676c0899ceb255f3756243161cfdc87357c859783283
+  checksum: 245b121ab38c19d821ab2f9df03cbec34e13efe46efde0b3f0957363a3d9eb9066bd6d29433e7d7df3ae4b92d20b353040e8d58c28c1e97de1b20f697a5d1d1b
   languageName: node
   linkType: hard
 
@@ -9131,8 +9166,8 @@ __metadata:
   dependencies:
     "@babel/core": ^7.16.0
     "@manypkg/cli": ^0.19.1
-    "@tamagui/babel-plugin": ^1.0.0-alpha.30
-    "@tamagui/colors": ^1.0.0-alpha.26
+    "@tamagui/babel-plugin": ^1.0.0-alpha.32
+    "@tamagui/colors": ^1.0.0-alpha.32
     "@types/react": ~17.0.37
     "@types/react-native": ~0.66.6
     "@unimodules/core": ^7.2.0
@@ -9142,25 +9177,25 @@ __metadata:
     react-dom: 17.0.2
     react-native: 0.64.3
     react-native-web: 0.17.5
-    tamagui: ^1.0.0-alpha.30
+    tamagui: ^1.0.0-alpha.32
     typescript: ~4.5.2
   languageName: unknown
   linkType: soft
 
-"tamagui@npm:^1.0.0-alpha.30":
-  version: 1.0.0-alpha.30
-  resolution: "tamagui@npm:1.0.0-alpha.30"
+"tamagui@npm:^1.0.0-alpha.32":
+  version: 1.0.0-alpha.32
+  resolution: "tamagui@npm:1.0.0-alpha.32"
   dependencies:
     "@react-aria/ssr": ^3.1.0
-    "@react-aria/utils": ^3.9.0
+    "@react-aria/utils": ^3.10.0
     "@react-native-aria/focus": ^0.2.5
     "@react-native-aria/overlays": ^0.3.2
     "@react-native-community/blur": ^3.6.0
-    "@tamagui/core": ^1.0.0-alpha.30
+    "@tamagui/core": ^1.0.0-alpha.32
     "@tamagui/fake-react-native": ^1.0.0-alpha.17
-    "@tamagui/helpers": ^1.0.0-alpha.30
-    "@tamagui/use-debounce": ^1.0.0-alpha.26
-    "@tamagui/use-force-update": ^1.0.0-alpha.26
+    "@tamagui/helpers": ^1.0.0-alpha.32
+    "@tamagui/use-debounce": ^1.0.0-alpha.32
+    "@tamagui/use-force-update": ^1.0.0-alpha.32
     expo-linear-gradient: ^10.0.3
     normalize-css-color: "*"
     react: "*"
@@ -9168,7 +9203,7 @@ __metadata:
     react-native-safe-area-context: ^3.3.2
   peerDependencies:
     react-native-web: "*"
-  checksum: 30cdb0fb8eba98ea53b3b849fb0a1f63270a0196073e7cd61148d061f68fba2e38e500e5e00ae22842eb9cea51cb7b659857f6db11625abdce859df7ed14dfbc
+  checksum: 31c16017aaeab5f7d3caabf4b51c6adbe7e1c39ac647207c761551036f4fecb547d7874fd4cacf50638811b52b8622c58b6e78b3c4c427fd39029449a399a8d8
   languageName: node
   linkType: hard
 
