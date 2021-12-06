@@ -2427,16 +2427,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/babel-plugin@npm:^1.0.0-alpha.32":
-  version: 1.0.0-alpha.32
-  resolution: "@tamagui/babel-plugin@npm:1.0.0-alpha.32"
+"@tamagui/babel-plugin@npm:^1.0.0-alpha.34":
+  version: 1.0.0-alpha.34
+  resolution: "@tamagui/babel-plugin@npm:1.0.0-alpha.34"
   dependencies:
     "@babel/generator": ^7.15.4
     "@babel/helper-plugin-utils": ^7.14.5
     "@babel/template": "*"
     "@babel/traverse": ^7.15.4
-    "@tamagui/static": ^1.0.0-alpha.32
-  checksum: 8af500d12b9b5ca5c8dc99ae3fde322be4ac0703e826febe170b8a882ca66dfaa2afce4861425bdedc8c061fec95dba562ef0d0d89e9888e5e3e28bd85bfe426
+    "@tamagui/static": ^1.0.0-alpha.34
+  checksum: 09637a1808140c965ba73e468d901f67dcf7fe339ad423aaf0cd2bcbb9e2de52f496ba8392036e8b1df0c46e9e58785526796c7cb71ff2c1de1b85435d9e9b88
   languageName: node
   linkType: hard
 
@@ -2519,9 +2519,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/static@npm:^1.0.0-alpha.32":
-  version: 1.0.0-alpha.32
-  resolution: "@tamagui/static@npm:1.0.0-alpha.32"
+"@tamagui/static@npm:^1.0.0-alpha.34":
+  version: 1.0.0-alpha.34
+  resolution: "@tamagui/static@npm:1.0.0-alpha.34"
   dependencies:
     "@babel/core": ^7.15.5
     "@babel/generator": ^7.15.4
@@ -2541,11 +2541,12 @@ __metadata:
     find-cache-dir: ^3.3.1
     fs-extra: ^9.1.0
     invariant: ^2.2.4
+    loader-utils: ^2.0.0
     lodash: ^4.17.21
-    tamagui: ^1.0.0-alpha.32
+    tamagui: ^1.0.0-alpha.34
   peerDependencies:
     react-native-web: "*"
-  checksum: 8835b29ae2e0f602eea5a3a9ba119770e8de928c13f2a949d8aa1e94bdb4416a066bbb7bcce3858487f8289f23b19a12fa19de76b15d200d26c921d0b9b39b92
+  checksum: 1b76becbba3e2a5cba9d0e824e5dee61ef94e4f0eaed62e845f923f462cad184db2d95b9f30e7edcdc598c860f7f7494c6bc1d6aa64d6d113c4fe19e80463657
   languageName: node
   linkType: hard
 
@@ -3271,6 +3272,13 @@ __metadata:
   version: 1.6.51
   resolution: "big-integer@npm:1.6.51"
   checksum: 3d444173d1b2e20747e2c175568bedeebd8315b0637ea95d75fd27830d3b8e8ba36c6af40374f36bdaea7b5de376dcada1b07587cb2a79a928fccdb6e6e3c518
+  languageName: node
+  linkType: hard
+
+"big.js@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "big.js@npm:5.2.2"
+  checksum: b89b6e8419b097a8fb4ed2399a1931a68c612bce3cfd5ca8c214b2d017531191070f990598de2fc6f3f993d91c0f08aa82697717f6b3b8732c9731866d233c9e
   languageName: node
   linkType: hard
 
@@ -4230,6 +4238,13 @@ __metadata:
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
   checksum: d4c5c39d5a9868b5fa152f00cada8a936868fd3367f33f71be515ecee4c803132d11b31a6222b2571b1e5f7e13890156a94880345594d0ce7e3c9895f560f192
+  languageName: node
+  linkType: hard
+
+"emojis-list@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "emojis-list@npm:3.0.0"
+  checksum: ddaaa02542e1e9436c03970eeed445f4ed29a5337dfba0fe0c38dfdd2af5da2429c2a0821304e8a8d1cadf27fdd5b22ff793571fa803ae16852a6975c65e8e70
   languageName: node
   linkType: hard
 
@@ -6272,6 +6287,17 @@ __metadata:
   version: 1.1.6
   resolution: "lines-and-columns@npm:1.1.6"
   checksum: 198a5436b1fa5cf703bae719c01c686b076f0ad7e1aafd95a58d626cabff302dc0414822126f2f80b58a8c3d66cda8a7b6da064f27130f87e1d3506d6dfd0d68
+  languageName: node
+  linkType: hard
+
+"loader-utils@npm:^2.0.0":
+  version: 2.0.2
+  resolution: "loader-utils@npm:2.0.2"
+  dependencies:
+    big.js: ^5.2.2
+    emojis-list: ^3.0.0
+    json5: ^2.1.2
+  checksum: 9078d1ed47cadc57f4c6ddbdb2add324ee7da544cea41de3b7f1128e8108fcd41cd3443a85b7ee8d7d8ac439148aa221922774efe4cf87506d4fb054d5889303
   languageName: node
   linkType: hard
 
@@ -9166,7 +9192,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.16.0
     "@manypkg/cli": ^0.19.1
-    "@tamagui/babel-plugin": ^1.0.0-alpha.32
+    "@tamagui/babel-plugin": ^1.0.0-alpha.34
     "@tamagui/colors": ^1.0.0-alpha.32
     "@types/react": ~17.0.37
     "@types/react-native": ~0.66.6
@@ -9177,14 +9203,14 @@ __metadata:
     react-dom: 17.0.2
     react-native: 0.64.3
     react-native-web: 0.17.5
-    tamagui: ^1.0.0-alpha.32
+    tamagui: ^1.0.0-alpha.34
     typescript: ~4.5.2
   languageName: unknown
   linkType: soft
 
-"tamagui@npm:^1.0.0-alpha.32":
-  version: 1.0.0-alpha.32
-  resolution: "tamagui@npm:1.0.0-alpha.32"
+"tamagui@npm:^1.0.0-alpha.34":
+  version: 1.0.0-alpha.34
+  resolution: "tamagui@npm:1.0.0-alpha.34"
   dependencies:
     "@react-aria/ssr": ^3.1.0
     "@react-aria/utils": ^3.10.0
@@ -9203,7 +9229,7 @@ __metadata:
     react-native-safe-area-context: ^3.3.2
   peerDependencies:
     react-native-web: "*"
-  checksum: 31c16017aaeab5f7d3caabf4b51c6adbe7e1c39ac647207c761551036f4fecb547d7874fd4cacf50638811b52b8622c58b6e78b3c4c427fd39029449a399a8d8
+  checksum: 0245dddc45fe423acd43c92cc8d84444c329b3a149a0ab5b4ef82c51544c0278a7eda7bce7ec4764b16d5824d56fdddc6e8c72c56f1bd98ec2dc9715643e88cf
   languageName: node
   linkType: hard
 
