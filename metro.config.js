@@ -1,8 +1,6 @@
 const defaultSourceExts =
   require('metro-config/src/defaults/defaults').sourceExts
 
-console.log('defaultSourceExts', defaultSourceExts)
-  
 module.exports = {
   transformer: {
     getTransformOptions: () => ({
