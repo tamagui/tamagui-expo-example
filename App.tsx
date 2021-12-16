@@ -5,7 +5,7 @@ import Tamagui from './tamagui.config'
 
 export default function App() {
   return (
-    <Tamagui.Provider defaultTheme='light'>
+    <Tamagui.Provider defaultTheme="light">
       <YStack flex={1} bc="$bg" ai="center" jc="center" space="$7">
         <Theme name="light">
           <TestComponent />
@@ -28,8 +28,10 @@ export default function App() {
 const TestComponent = () => {
   return (
     <YStack bc="$bg2" space ai="center" jc="center">
-      <YStack width={100} height={100} backgroundColor="red" />
-      <Paragraph $sm={{ color: 'red' }} size="$6">Hello</Paragraph>
+      <YStack width={100} height={100} backgroundColor="$bg" />
+      <Paragraph $sm={{ color: 'red' }} size="$6">
+        Hello
+      </Paragraph>
       <Button>Hello</Button>
     </YStack>
   )
