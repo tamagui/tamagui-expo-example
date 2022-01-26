@@ -1,12 +1,16 @@
 import { StatusBar } from 'expo-status-bar'
 import React from 'react'
-import { Button, Paragraph, Theme, YStack } from 'tamagui'
+import { Button, Paragraph, styled, Theme, XStack, YStack } from 'tamagui'
 import Tamagui from './tamagui.config'
+
+const MyStack = styled(XStack, {
+  flexDirection: 'row',
+})
 
 export default function App() {
   return (
     <Tamagui.Provider defaultTheme="light">
-      <YStack flex={1} bc="$bg" ai="center" jc="center" space="$7">
+      <MyStack flex={1} bc="$bg" ai="center" jc="center" space="$7">
         <Theme name="light">
           <TestComponent />
         </Theme>
@@ -19,7 +23,7 @@ export default function App() {
             <TestComponent />
           </Theme>
         </Theme>
-      </YStack>
+      </MyStack>
       <StatusBar style="auto" />
     </Tamagui.Provider>
   )
