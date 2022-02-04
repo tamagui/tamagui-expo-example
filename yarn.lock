@@ -1897,16 +1897,16 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tamagui/babel-plugin@^1.0.0-alpha.48":
-  version "1.0.0-alpha.48"
-  resolved "https://registry.yarnpkg.com/@tamagui/babel-plugin/-/babel-plugin-1.0.0-alpha.48.tgz#a74c3c56c4f025382d35e310da5a684668313f82"
-  integrity sha512-RMGwe0YxWAFGNnoHyyzwjFMh5t4D/Q7mG2ZaBtm5N8yCDifsA93AWFJxilkd37IPNPfVQxT35MFNP/QA1gd37w==
+"@tamagui/babel-plugin@^1.0.0-alpha.50":
+  version "1.0.0-alpha.50"
+  resolved "https://registry.npmjs.org/@tamagui/babel-plugin/-/babel-plugin-1.0.0-alpha.50.tgz#af993af8421175c5af7079972ee24f8acf5451c8"
+  integrity sha512-AvcHBBPq2JuE2v21d3PuzQQn8aDQhV7tnHZZ/6DaYvan2TjvPA/PZLi8gLYp9fEE42G2hm9kSTvIrItix23K+w==
   dependencies:
     "@babel/generator" "^7.15.4"
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/template" "*"
     "@babel/traverse" "^7.15.4"
-    "@tamagui/static" "^1.0.0-alpha.48"
+    "@tamagui/static" "^1.0.0-alpha.50"
 
 "@tamagui/build@^1.0.0-alpha.44":
   version "1.0.0-alpha.44"
@@ -1967,10 +1967,10 @@
     type-fest "^2.3.4"
     vali-date "^1.0.0"
 
-"@tamagui/static@^1.0.0-alpha.48":
-  version "1.0.0-alpha.48"
-  resolved "https://registry.yarnpkg.com/@tamagui/static/-/static-1.0.0-alpha.48.tgz#1d9ecc86280d1a70654c47e3ab6fe06ee1eff95f"
-  integrity sha512-2L/wyNV6prnLVWPS1HCBmHyILgteP9fCbBGBnO7Zb1m95fxi6VQc1xfNTKHK58d7iX8NTh7KvHTXNBo2oltehw==
+"@tamagui/static@^1.0.0-alpha.50":
+  version "1.0.0-alpha.50"
+  resolved "https://registry.npmjs.org/@tamagui/static/-/static-1.0.0-alpha.50.tgz#6ee8631da18e195ab3f2d12b871b070200e5669a"
+  integrity sha512-alqeoMO1uFSnt1cWF5NhRjxxEWVULx3LvB29zJzLaO4CJCx3924eMC2ZbCry3rjuvuIxBsiOUh7kYZgIgViP7w==
   dependencies:
     "@babel/core" "^7.15.5"
     "@babel/generator" "^7.15.4"
@@ -1992,7 +1992,7 @@
     invariant "^2.2.4"
     loader-utils "^2.0.0"
     lodash "^4.17.21"
-    tamagui "^1.0.0-alpha.48"
+    tamagui "^1.0.0-alpha.50"
 
 "@tamagui/use-debounce@^1.0.0-alpha.44":
   version "1.0.0-alpha.44"
@@ -9513,20 +9513,20 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-tamagui-loader@^1.0.0-alpha.48:
-  version "1.0.0-alpha.48"
-  resolved "https://registry.yarnpkg.com/tamagui-loader/-/tamagui-loader-1.0.0-alpha.48.tgz#934d5d17d9cc2754f695861fda929c8fa9abede3"
-  integrity sha512-1RTmENtgh4gS/hMWSvlBuzt2xaHrco2idE40hbFDZSSbVtq87WTXpo/ADgrrGsgOzE0HD8VkwJ7SvnjuRYCCww==
+tamagui-loader@^1.0.0-alpha.50:
+  version "1.0.0-alpha.50"
+  resolved "https://registry.npmjs.org/tamagui-loader/-/tamagui-loader-1.0.0-alpha.50.tgz#712682d1734bfb3c7c884609d8b42f4b1d0a0ed1"
+  integrity sha512-cB+VWKss6lFAiKz7NQ/OINhEDyM2F7DabUB2V83nq26XDjNJL1j8cCKC1yE7N3Rd6HAJ6qeQKl9yELqHaiPCkg==
   dependencies:
-    "@tamagui/static" "^1.0.0-alpha.48"
+    "@tamagui/static" "^1.0.0-alpha.50"
     fs-extra "^9.1.0"
     loader-utils "^2.0.0"
     lodash "^4.17.21"
 
-tamagui@^1.0.0-alpha.48:
-  version "1.0.0-alpha.48"
-  resolved "https://registry.yarnpkg.com/tamagui/-/tamagui-1.0.0-alpha.48.tgz#80e2795ab1d95b77a3f65a9f206037c6528fab8d"
-  integrity sha512-Zq4Nvv4M8gp5Vqrnm8nMF1z9NnGxnGGAxYx7hDfsoJDAdRUN3D6BRGzLOowWmkD5Pc4JR/6h4j2MopeZGd1nHg==
+tamagui@^1.0.0-alpha.50:
+  version "1.0.0-alpha.50"
+  resolved "https://registry.npmjs.org/tamagui/-/tamagui-1.0.0-alpha.50.tgz#7a59f228545f714094e06f10f53bf72dc11a173e"
+  integrity sha512-ZlZN/uaiJypK7IMZF4Oc6h7fjiDq2nU79woRAYYSg689gTlyabEV+0cJH8IQHdC9AE6mJSe10qBhF4D0vU7TRw==
   dependencies:
     "@react-aria/ssr" "^3.1.0"
     "@react-aria/utils" "^3.10.0"
